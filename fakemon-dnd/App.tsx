@@ -6,7 +6,7 @@ export default function App() {
     <PaperProvider>
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Button mode="contained" onPress={() => console.log('Pressed')}>
-          Hello Material
+          Test 4
         </Button>
       </View>
     </PaperProvider>
