@@ -1,14 +1,12 @@
-import { Provider as PaperProvider, Button } from 'react-native-paper';
-import { View } from 'react-native';
+import React from 'react';
+import { Provider as PaperProvider } from 'react-native-paper';
+import ProfileLogin from './src/profileLogin/profileLogin';
 
 export default function App() {
+
   return (
     <PaperProvider>
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Button mode="contained" onPress={() => console.log('Pressed')}>
-          Test 1
-        </Button>
-      </View>
+      <ProfileLogin />
     </PaperProvider>
   );
 }
