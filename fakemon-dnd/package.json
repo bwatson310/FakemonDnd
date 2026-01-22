@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "npx expo start -c",
+    "start": "npx expo start -c --tunnel",
     "android": "cmd.exe /c \"C:\\Users\\brent\\AppData\\Local\\Android\\Sdk\\emulator\\emulator.exe @Medium_Phone_API_35\" & npx expo run:android",
     "ios": "npx expo run:ios",
     "web": "npx expo start --web"
